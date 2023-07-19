@@ -10,9 +10,9 @@ SECRET_KEY = \
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '158.160.71.254', 
-    '127.0.0.1', 
-    'localhost', 
+    '158.160.71.254',
+    '127.0.0.1',
+    'localhost',
     'taski52.sytes.net'
 ]
 
