@@ -19,11 +19,11 @@ class Migration(migrations.Migration):
                     primary_key=True,
                     serialize=False,
                     verbose_name='ID')
-                ),
+                    ),
                 ('title', models.CharField(
                     max_length=120,
                     verbose_name='Заголовок')
-                ),
+                    ),
                 ('description', models.TextField()),
                 ('completed', models.BooleanField(default=False)),
             ],
